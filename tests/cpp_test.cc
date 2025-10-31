@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
 
-TEST(NumberUtilsTest, GetSqrt) {
-    // Test positive numbers
+TEST(trivial_test, one_eq_one) {
     EXPECT_EQ(1, 1);
 }
