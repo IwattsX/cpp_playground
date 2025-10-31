@@ -22,3 +22,6 @@ target_link_libraries(cpp_tests GTest::gtest_main)
 # Use gtest_discover_tests for each test executable
 include(GoogleTest)
 gtest_discover_tests(cpp_tests)
+
+# main executable
+add_executable(main src/main.cpp)
